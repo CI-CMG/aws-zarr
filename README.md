@@ -12,9 +12,18 @@ Add the following dependency to your Maven pom.xml
 
 ```xml
     <dependency>
-        <groupId>io.github.ci-cmg</groupId>
-        <artifactId>aws-zarr</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+      <groupId>io.github.ci-cmg</groupId>
+      <artifactId>aws-zarr</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+```
+You will also need a version of JZarr
+
+```xml
+    <dependency>
+      <groupId>com.bc.zarr</groupId>
+      <artifactId>jzarr</artifactId>
+      <version>0.3.4</version>
     </dependency>
 ```
 

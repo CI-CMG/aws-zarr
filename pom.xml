@@ -85,6 +85,7 @@
       <groupId>com.bc.zarr</groupId>
       <artifactId>jzarr</artifactId>
       <version>0.3.4</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -261,6 +262,7 @@
             <artifactId>dependency-check-maven</artifactId>
             <version>6.5.0</version>
             <configuration>
+              <skipProvidedScope>true</skipProvidedScope>
               <failBuildOnAnyVulnerability>true</failBuildOnAnyVulnerability>
             </configuration>
             <executions>

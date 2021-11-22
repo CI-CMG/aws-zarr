@@ -14,7 +14,7 @@ Add the following dependency to your Maven pom.xml
     <dependency>
       <groupId>io.github.ci-cmg</groupId>
       <artifactId>aws-zarr</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
     </dependency>
 ```
 You will also need a version of JZarr
